@@ -1,7 +1,8 @@
 import calendar  
 # Enter the month and year  
 yy = int(input("Enter year: "))  
-mm = int(input("Enter month: "))  
+mm = int(input("Enter month: ")) 
+dd = int(input("Enter date:"))
   
 # display the calendar  
-print(calendar.month(yy,mm))  
+print(calendar.month(yy,mm))  #calendar.month is an attribute
