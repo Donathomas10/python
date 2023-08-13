@@ -1,0 +1,7 @@
+P = int(input("Enter the value of P:"))
+Q = int(input("Enetr the value of Q:"))
+
+P,Q = Q,P
+
+print("The value of P after swapping:",P)
+print("The value of Q after swapping:",Q)
